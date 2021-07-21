@@ -49,21 +49,24 @@ body {
 
 }
 
-#about{
+#about-head{
     padding-top: 60px;
     background-color: black;
+    padding-bottom: 5%;
 }
 
-#about-divs {
-    border-right: 1px solid white;
-    background-color: black;
-}
 
-#about-divs img {
+
+#about-head img {
     border-radius: 50%;
     width: 50%;
     margin-right: auto;
     margin-left: 25%;
+}
+
+#about-main img {
+    max-width: 100%;
+    height: auto;
 }
 
 .footer {
