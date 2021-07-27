@@ -15,7 +15,7 @@ body {
 }
 
 .page-container {
-    max-width: 95%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,6 +43,7 @@ body {
 
 }
 
+
 #home-button {
     border: 1px solid white;
     background-color: grey;
@@ -69,9 +70,22 @@ body {
     margin-left: 25%;
 }
 
+.bio-img img{
+    max-width: 100%;
+}
+
 #about-main img {
     max-width: 100%;
     height: auto;
+}
+
+#top-lesson-row img{
+    max-width: 100%;
+
+}
+
+#bottom-lesson-row img{
+    max-width: 100%;
 }
 
 .footer {
@@ -84,11 +98,11 @@ body {
   }
 
 .footer-content {
-    max-width: 90%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footer-rgt {
-    max-width: 15%;
+    max-width: 60%;
 }

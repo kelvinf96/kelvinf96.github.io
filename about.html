@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biography</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
@@ -14,73 +18,75 @@
         <div id="navigation-bar">
             <!-- navagation -->
             
-            <nav class="text-light ml-3 mt-3">
-                
-                <ul class="nav">
-                    <li class="nav-item" id="nav-name">
-                        <img src="https://img.icons8.com/pastel-glyph/64/ffffff/guitar--v2.png"/><span class="ml-3 text-danger">Palmerstown Guitar Lessons</span>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">PalmerstownGuitarLessons</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item ml-5">
-                      <a class="nav-link active text-light" href="index.html">Home</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="lessons.html">Lessons</a>
                     </li>
-                    <li class="nav-item ml-2">
-                      <a class="nav-link text-light" href="lessons.html">Lessons</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">Biography</a>
                     </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link text-light" href="about.html">Biography</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="">Testimonials</a>
                     </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link text-light" href="#">Testimonials</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">(086)8877425</a>
                       </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link text-light" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item ml-5 text-danger">
-                        <h3>(086)8877425</h3>
-                    </li>
-                    
                   </ul>
-            </nav>
+                </div>
+              </nav>
             
 
         </div>
         <div>
             <div class="row" id="about-head">
-                <div class="col"></div>
+                <div class="col-1 col-sm-2 col-md-3 col-lg-3 col-xl-4"></div>
             
                 <div class="col">
                     <img class="img" src="singer.jpeg">
                 </div>
-                <div class="col"></div>
+                <div class="col-1 col-sm-2 col-md-3 col-lg-3 col-xl-4"></div>
 
             </div>
-            <div class="row pb-5" id="about-main">
-                <div class="col-2"></div>
-                <div class="col">
+            <div class="row pb-5 about-main">
+                <div class="col-1"></div>
+                <div class="col-10">
                     <p class="text-light  text-center pt-4 pb-4">
                         Declan Landy has been working as a professional musician for over 25 years, gigging throughout Ireland and Europe. Declan is qualified at Grade 8 in both Acoustic & Electric Guitar with the Registry Of Guitar Tutors, with accreditation from the University Of West London.
                     </p>
                     <p class="text-light  text-center pt-4 pb-4">
                         He has played to audiences in venues such as Dublin’s Olympia Theatre, Vicar St., The Button Factory and in famous London venues The 100 Club and Half Moon. In 2013 Declan’s song ‘Give A Little Love’ was chosen by legendary music producer Steve Lillywhite as part of the RTE TV show ‘The Hit’.
                     </p>
-                    <div class="row">
-                        <div class="col">
+            <div class="row">
+                        <div class="col-12 col-lg-6 bio-img">
                             <img src="bio1.png">
                         </div>
-                        <div class="col">
+                        <div class="col-12 col-lg-6 bio-img">
                             <img src="bio2.png">
                         </div>
 
-                    </div>
+            </div>
                     
                     <p class="text-light  text-center pt-4 pb-4">
                         Declan has featured on radio on 2FM’s Gerry Ryan show, on Radio 1 with Marty Whelan, on Newstalk FM and on Radio Nova’s Colm & Lucy show. Declan also plays in the Pink Floyd tribute band “Visions Of Floyd”, playing theatre shows including two in The National Concert Hall with the RTE Concert Orchestra in 2019.
                     </p>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-lg-6 bio-img">
                             <img src="floyd.jpeg">
                         </div>
-                        <div class="col">
+                        <div class="col-12 col-lg-6 bio-img">
                             <img src="piano.jpeg">
                         </div>
 
@@ -90,7 +96,7 @@
 
 
                 </div>
-                <div class="col-2"></div>
+                <div class="col-1"></div>
 
 
             </div>
@@ -99,12 +105,26 @@
         <div>
             <footer class="footer">
                 <div class="container footer-content">
-                    <a href="https://www.youtube.com/user/declanlandy"><img src="https://img.icons8.com/ios-filled/50/ffffff/youtube.png"/></a>
-                    <a class="ml-5" href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"/></a>
-                    <span class="text-light ml-5"><img src="https://img.icons8.com/ios-filled/50/ffffff/apple-mail.png"/></span>
-                    <span class="text-light ml-5"><img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png"/>(086)8877425</span>
-                    <a href="http://www.rgt.org/index.php"> <img src="rgt.jpeg" class="footer-rgt ml-3"> </a>
-                  
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://www.youtube.com/user/declanlandy"><img src="https://img.icons8.com/ios-filled/50/ffffff/youtube.png"/></a>
+                        </div>
+                        <div class="col">
+                            <a class="ml-5" href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"/></a>
+                        </div>
+                        <div class="col">
+                            <a class="ml-5" href="https://www.tiktok.com/@declanlandy"><img src="https://img.icons8.com/ios/50/fa314a/tiktok--v1.png"/></a>
+                        </div>
+                        <div class="col">
+                            <span class="text-light ml-5"><img src="https://img.icons8.com/ios-filled/50/ffffff/apple-mail.png"/></span>
+                        </div>
+                        <div class="col">
+                            <span class="text-light ml-5"><img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png"/>(086)8877425</span>
+                        </div>
+                        <div class="col">
+                            <a href="http://www.rgt.org/index.php"> <img src="rgt.jpeg" class="footer-rgt ml-3"> </a>
+                        </div>
+                    </div>
                 </div>
               </footer>
             
