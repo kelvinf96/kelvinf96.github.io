@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="page-container">
+        <div id="navigation-bar">
+            <!-- navagation -->
+            
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand text-danger" href="index.html">PalmerstownGuitarLessons</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="lessons.html">Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">(086)8877425</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+            
+
+        </div>
+        
+        <div class="row mt-5 mb-5">
+            <div class="col ml-3">
+                <div>
+                    <h1 class="text-center text-light mt-3">Contact Me</h1>
+                </div>
+                <div class="mt-2 text-left text-light">
+                    <a href="#send-message"><button class="btn btn-secondary mt-3">Send Message</button></a>
+                    <h4 class="mt-3">Phone : (086)8877425</h4>
+                    <h4 class="mt-3">Email : palmerstownguitarlessons@gmail.com</h4>
+                    <h4 class="mt-3">Facebook : <a class="ml-5" href="#"><img src="https://img.icons8.com/cute-clipart/64/4a90e2/facebook.png"/></a></h4>
+                    <h4 class="mt-3">Youtube : <a class="ml-5" href="https://www.youtube.com/user/declanlandy"><img src="https://img.icons8.com/ios-filled/50/fa314a/youtube-squared.png"/></a></h4>
+                    <h4 class="mt-3">TikTok : <a class="ml-5" href="https://www.tiktok.com/@declanlandy"><img src="https://img.icons8.com/ios/50/fa314a/tiktok--v1.png"/></a></h4>
+                    <h4 class="mt-3">Instagram :</h4>
+                </div>
+
+            </div>
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8466.458870483011!2d-6.376760084871305!3d53.34848734170487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1627738207262!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+
+            </div>
+
+
+
+
+        </div>
+        <div class="row mt-5" id="message-section">
+            <div class="col bg-secondary">
+
+            </div>
+            <div class="col bg-secondary pt-5 pb-5">
+                <h3 class="text-center text-light mb-5 mt-3">
+                    Send Me a Message
+                </h3>
+                <form
+                    action="https://formspree.io/f/mleapbzn"
+                    method="POST"
+                    id="send-message"
+                >   
+                    <div class="form-group">
+                        <label class="text-light">
+                            Your name:
+                            <input name="name">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-light">
+                            Your email:
+                            <input type="email" name="_replyto">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-light">
+                            Message subject:
+                            <input name="subject">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-light">
+                            Message:
+                            <textarea name="message" rows="15" cols="60"></textarea>
+                        </label> 
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col"></div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-success pl-5 pr-5">Send</button>
+                        </div>
+                        <div class="col"></div>
+
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="col bg-secondary">
+
+            </div>
+
+
+        </div>
+        <footer class="footer mt-3">
+            <div class="container footer-content">
+                <div class="row">
+                    <div class="col-5 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <a href="https://www.youtube.com/user/declanlandy"><img src="https://img.icons8.com/ios-filled/50/fa314a/youtube-squared.png"/></a>
+                    </div>
+                    <div class="col-5 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <a class="ml-5" href="#"><img src="https://img.icons8.com/cute-clipart/64/4a90e2/facebook.png"/></a>
+                    </div>
+                    <div class="col-5 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <a class="ml-5" href="https://www.tiktok.com/@declanlandy"><img src="https://img.icons8.com/ios/50/fa314a/tiktok--v1.png"/></a>
+                    </div>
+                    <div class="col-5 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <span class="text-light ml-5"><img src="https://img.icons8.com/ios-filled/50/ffffff/apple-mail.png"/></span>
+                    </div>
+                
+                    <div class="col-5 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                        <a href="http://www.rgt.org/index.php"> <img src="rgt.jpeg" class="footer-rgt ml-3"> </a>
+                    </div>
+                </div>
+            </div>
+          </footer>
+
+    </div>
+    
+</body>
+</html>
