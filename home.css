@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(17, 17, 17);
+    background-color: #39393A;
     position: relative;
     min-height: 100%;
 }
@@ -9,9 +9,30 @@ html {
     font-size: 200%;
 }
 
+.navbar-custom {
+    background-color: #39393A;
+    border-bottom: solid 1px #CCCCCC;
+    
+}
+
+.navbar-custom .navbar-brand {
+    color : #D7263D;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+#nav-number {
+    color: #D7263D;
+}
+
+
+
 body {
-    background-color: rgb(17, 17, 17);
-    margin-bottom: 60px;
+    background-image: linear-gradient(to bottom right, #39393A, #771724);
+    
+    
 }
 
 .page-container {
@@ -31,27 +52,28 @@ body {
 }
 */
 .main-content {
-    padding-top: 10%;
-    width: 100%;
-    height: 700px;
+    padding-top: 5%;
+    width: 90%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("homeimage.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 
-#home-button {
-    border: 1px solid white;
-    background-color: grey;
+#home-button-one {
+    background-color: #D7263D;
+}
+
+#home-button-two {
+    background-color: white;
 }
 
 
 #navigation-bar {
-    background-color: rgb(17, 17, 17);
+    background-color: #39393A;
 
 }
 
@@ -92,16 +114,14 @@ body {
     border-top : double 6px white;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
-    background-color: rgb(17, 17, 17);
-  }
+.footer-start{
+    border-top: solid 1px #CCCCCC;
+}
+
 
 .footer-content {
+    position: absolute;
+    background-color: #39393A;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -109,4 +129,24 @@ body {
 
 .footer-rgt {
     max-width: 60%;
+}
+
+#socials-foot {
+    border-right: 1px solid white;
+}
+
+.head-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 400%;
+}
+
+.sub-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+}
+
+.foot-heads {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 100%;
+    border-bottom: solid 1px white;
 }
