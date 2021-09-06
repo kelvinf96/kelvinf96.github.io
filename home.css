@@ -96,10 +96,17 @@ body {
     max-width: 100%;
 }
 
-#about-main img {
+.about-main img {
     max-width: 100%;
     height: auto;
 }
+
+.about-main {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+}
+
+
 
 #top-lesson-row img{
     max-width: 100%;
@@ -149,4 +156,78 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 100%;
     border-bottom: solid 1px white;
+}
+
+.carousel{
+    height: 400px;
+}
+
+.testimonials-head{
+    font-size: 125%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #39393A;
+}
+
+.carousel-item {
+    font-family: 'Courgette', cursive;
+    font-size: 125%;
+}
+
+.testimonials-body {
+    font-family: 'Courgette', cursive;
+    font-size: 125%;
+}
+
+.testimonial-form {
+    font-size: 125%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #39393A;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+#contact-text {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) { 
+    #web-view{
+        display: none;
+    }    
+}
+
+@media screen and (min-width: 769px){ 
+    #phone-view{
+        display: none;
+    }    
+}
+.container {
+    max-width: 820px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.comment {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.commenter {
+    float: left;
+}
+.commenter img {
+    width: 35px;
+    height: 35px;
+}
+.comment-text-area {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.textinput {
+    float: left;
+    width: 100%;
+    min-height: 75px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
 }
