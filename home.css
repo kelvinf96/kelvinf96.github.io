@@ -231,3 +231,24 @@ body {
     resize: none;
     border: 1px solid grey;
 }
+
+.social-btn {
+    width: 100%;
+    border: 1px solid white;
+    font-family: 'Courgette', cursive;
+    font-size: 125%;
+}
+
+
+.btn-custom {
+    background-color :rgb(153, 26, 89);
+    width: 100%;
+    border: 1px solid white;
+    font-family: 'Courgette', cursive;
+    font-size: 125%;
+}
+
+.contact-head {
+    font-family: 'Montserrat', cursive;
+    font-size: 250%;
+}
